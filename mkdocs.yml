@@ -1,0 +1,51 @@
+site_name: JTSDK64 Tools
+site_description: SSoftware Development Tools
+
+theme:
+    name: 'material'
+    features:
+      - navigation.tabs
+
+repo_name: JTSDK/jtsdk64-tools
+repo_url: https://github.com/JTSDK/jtsdk64-tools
+edit_uri: ""
+copyright: Documentation Copyright &copy; 2016 - 2021 Greg Beam, 
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - attr_list
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Setup:
+    - Overview: 'setup/overview.md'
+  - Tools:
+    - Overview: 'tools/overview.md'
+  - MSYS2:
+    - Overview: 'msys2/overview.md'
+  - Boost:
+    - Overview: 'boost/overview.md'
+  - Hamlib:
+    - Overview: 'hamlib/overview.md'
+  - WSJT-X:
+    - Overview: 'wsjtx/overview.md'
+  - JS8CALL:
+    - Overview: 'js8call/overview.md'
+  - JTDX:
+    - Overview: 'jtdx/overview.md'
+  - Contribute:
+    - Overview: 'contribute/overview.md'
+  - Credits: credits.md
