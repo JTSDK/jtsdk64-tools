@@ -1,6 +1,6 @@
 # JTSDK64 Tools
 
-## Version 4.0.0
+## Version 3.2.0
 
 **JTSDK64 Tools** is a collection of 64-Bit [Open Source][] frameworks,
 library's and associated utilities focused on compiling [WSJT-X][], [WSJT][],
