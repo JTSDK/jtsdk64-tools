@@ -51,4 +51,4 @@ and implement the final disposition.
 [JTSDK64-Apps-3.1.0.2]: https://sourceforge.net/projects/jtsdk/files/win64/3.1.0/jtsdk64-apps-3.1.0.1.exe
 [Git]: https://git-scm.com/
 [VS Code]: https://code.visualstudio.com/Download
-[Issue Tracker]: https://github.com/KI7MT/jtsdk64-tools/issues
+[Issue Tracker]: https://github.com/JTSDK/jtsdk64-tools/issues
