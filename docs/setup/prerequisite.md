@@ -1,4 +1,4 @@
-# Installation Prerequisites
+# Prerequisites
 
 The only prerequisite to running the `JTSDK64 Tools Installer` is the need for an [Qt Account][]. This is a rescent change
 is their open-source use policy which prevents anonymous downloading of components via their installer.

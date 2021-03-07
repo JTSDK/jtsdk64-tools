@@ -4,6 +4,14 @@ This section will walk users through (step-by-step) the process of installing al
 
 It is highly recommended that users `uninstall` all previous JTSDK componsnts before using this guide. There are ways to work around this requirement, however, it can be teadious and error prone. For the best results, a clean install is the development teams recomendation.
 
+## Installation Order
+
+While some areas can be skipped, or added later, this guide--and this authors personal recommendation--will proceed in the oder listed. Advanced users may elect to move through the order as they see fit, however, be aware of the limitation and potential for issues in doing so.
+
+## Living Document
+
+Many sections of this site are `under construction`. As new content is made available it will be added to the site after review. All content will remain relevant to the latest release of the `JTSDK64-Tools v3.2.x Stream`. Any Change to the Major or Minor version schema will result in a tag of the existing main branch and migration to the next release.
+
 ## Preferred Environment
 
 If and where possible, users should first install `JTSDK64-Tools` in a Virtual Machine (VM). While the process aims to prevent unforseen events to the users main system, there is always the potential for issues to ariase, thus, using a VM  will help mitigate such risk.
@@ -21,10 +29,6 @@ While one can get away with a small comodity-based computer for development work
 - SSD disk IO wherever possible, or a high RPM (10K +) SAS/SATA spin drive
 - At least 15Gb to 20GB of free disk space
 - Network Speed, the higher the better, but 2Mbps to 4Mbps at a minimum.
-
-## Installation Order
-
-While some areas can be skipped, or added later, this guide--and my personal recommendation--will proceed in the oder listed. Advanced users may elect to move through the order as they see fit, however, be aware of the limitation and potential for issues in doing so.
 
 
 [WSJT-X]: http://physics.princeton.edu/pulsar/K1JT/wsjtx.html

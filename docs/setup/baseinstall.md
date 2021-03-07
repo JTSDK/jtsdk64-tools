@@ -1,6 +1,6 @@
 # Base Installation
 
-This section will cover the base tools installation using the provided InnoSetup Windows installer. For most for the screens, one only needs to use the defaults provided.
+This section will cover the base tools installation using the provided InnoSetup Windows installer. For most for the screens, one only needs to use the default(s) provided.
 
 !!! note
     The images presented during installation were snipped on a new VirtualBox Win-10 image. `Nothing` was installed
@@ -9,18 +9,30 @@ This section will cover the base tools installation using the provided InnoSetup
 
 ## Download Installer
 
-Download the lateest version of JTSDK64-Tools v3.2.0 from [Hamlib-SDK], then search your download folder for the installer.
+Download the lateest version of JTSDK64-Tools v3.2.0 from [Hamlib-SDK][], then search your download folder for the installer.
+
+- [Direct Download Link][]
+
+
+SHA1 and MD5 validation is available from [Hamlib-SDK][] by using the information icon next to the file in question.
+
+<figure>
+  <img src="../images/1-Download-Installer-2.PNG" width=auto />
+  <figcaption>SHA and MD5 Validaiton</figcaption>
+</figure>
+
+
+Location of downloaded installer package.
 
 <figure>
   <img src="../images/1-Download-Installer.PNG" width=auto />
   <figcaption>Downloaded Installer File</figcaption>
 </figure>
 
-[Hamlib-SDK]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2.0-x64-Stream/
 
 ## Run Installer
 
-**`Double-Click`** the installer to begin after which you will be presented with the Wind-10 protection widget. Use the `More Info` link to procede.
+**`Double-Click`** the installer to begin, after which you will be presented with the Win-10 protection widget. Use the `More Info` link to procede.
 
 <figure>
   <img src="../images/2-Run-Installer-1.PNG" width=auto />
@@ -88,3 +100,8 @@ After a sucessful installaiton (if you elected desktop shortcuts above), you sho
   <img src="../images/3-Run-Setup-1.PNG" width=auto />
   <figcaption>New Desktop Icon's</figcaption>
 </figure>
+
+
+<!-- In Document HREF Links -->
+[Hamlib-SDK]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2.0-x64-Stream/
+[Direct Download Link]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2.0-x64-Stream/JTSDK64-Base-3.2.0.exe/download

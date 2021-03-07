@@ -32,8 +32,12 @@ nav:
   - Home: index.md
   - Setup:
     - Overview: 'setup/overview.md'
-    - 1. Installation Prerequisites: 'setup/prerequisite.md'
-    - 2. Base Installation: 'setup/baseinstall.md'
+    - 1. Prerequisites: 'setup/prerequisite.md'
+    - 2. Base Install: 'setup/baseinstall.md'
+    - 3. Post Install: 'setup/postinstall.md'
+    - 4. Build Config: 'setup/buildconfig.md'
+    - 5. MSYS2 Setup: 'setup/msys2setup.md'
+    - 5. Build Hamlib: 'setup/buildhamlib.md'
   - Tools:
     - Overview: 'tools/overview.md'
   - MSYS2:
