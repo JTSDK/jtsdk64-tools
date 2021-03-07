@@ -8,7 +8,7 @@ is their open-source use policy which prevents anonymous downloading of componen
 
 ## Qt Account Registration
 
-To create and validate service account, perform the following:
+To create and validate a service account, perform the following:
 
 - [Register][] for an account
 - Use a valid emial address during registration
