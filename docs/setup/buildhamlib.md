@@ -20,7 +20,7 @@ During the Build:
 
 <figure>
   <img src="../images/5-Build-Hamlib-2.PNG" width=auto />
-  <figcaption>Hamlib Build Results</figcaption>
+  <figcaption>Hamlib Build Progress</figcaption>
 </figure>
 
 Completed Build:
