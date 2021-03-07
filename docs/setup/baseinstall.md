@@ -32,7 +32,7 @@ Location of downloaded installer package.
 
 ## Run Installer
 
-**`Double-Click`** the installer to begin, after which you will be presented with the Win-10 protection widget. Use the `More Info` link to procede.
+**`Double-Click`** the installer to begin, after which you will be presented with the Win-10 protection widget. Use the `More Info` link to continue.
 
 <figure>
   <img src="../images/2-Run-Installer-1.PNG" width=auto />
