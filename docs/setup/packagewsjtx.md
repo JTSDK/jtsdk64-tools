@@ -19,7 +19,7 @@ jtbuild package
 </figure>
 
 
-## Competed Package
+## Completed Package
 
 The output from a successful build should resemble the following:
 
