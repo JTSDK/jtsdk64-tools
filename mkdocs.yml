@@ -9,7 +9,7 @@ theme:
 repo_name: JTSDK/jtsdk64-tools
 repo_url: https://github.com/JTSDK/jtsdk64-tools
 edit_uri: ""
-copyright: Documentation Copyright &copy; 2016 - 2021 Greg Beam, 
+copyright: Documentation Copyright &copy; 2016 - 2021 Greg Beam, KI7MT 
 
 markdown_extensions:
   - admonition
@@ -32,6 +32,8 @@ nav:
   - Home: index.md
   - Setup:
     - Overview: 'setup/overview.md'
+    - 1. Installation Prerequisites: 'setup/prerequisite.md'
+    - 2. Base Installation: 'setup/baseinstall.md'
   - Tools:
     - Overview: 'tools/overview.md'
   - MSYS2:
