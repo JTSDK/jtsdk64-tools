@@ -18,7 +18,7 @@ If and where possible, users should first install `JTSDK64-Tools` in a Virtual M
 
 ## System Requierments
 
-There is no question, the more system resources (CPU cores, RAM, Disk IO, Network Speed, etc) the compiling system has, the better the overall performance will be. Completion times, based on a wide range od end-user reports, have ranged from `2.5 hours` to a `full day`, so plan accordingly.
+There is no question, the more system resources (CPU cores, RAM, Disk IO, Network Speed, etc) the compiling system has, the better the overall performance will be. Completion times, based on a number of end-user reports, have ranged from `2.5 hours` to a `full day`, so plan accordingly.
 
 By far, the most time intensive elements for the the entire setup process is related to downloing and installing [Qt][], followed by a lengthy compile time for [Boost][].
 
