@@ -39,6 +39,8 @@ nav:
     - 5. MSYS2 Setup: 'setup/msys2setup.md'
     - 6. Build Hamlib: 'setup/buildhamlib.md'
     - 7. Deploy Boost: 'setup/deployboost.md'
+    - 8. Package WSJT-X: 'setup/packagewsjtx.md'
+    - 9. Conslusion: 'setup/conslusion.md'
   - Tools:
     - Overview: 'tools/overview.md'
   - MSYS2:
