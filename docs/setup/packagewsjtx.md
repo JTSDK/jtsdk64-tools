@@ -25,7 +25,7 @@ The output from a sucessful build should resemble the following:
 
 <figure>
   <img src="../images/6-Build-WSJTX-2.PNG" width=auto />
-  <figcaption>Sucessful Package Build</figcaption>
+  <figcaption>Successful Package Build</figcaption>
 </figure>
 
 # WSJT-X Installed

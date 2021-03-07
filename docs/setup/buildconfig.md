@@ -1,6 +1,6 @@
 # Build Confiuration
 
-In this setion you will set the default variables used to compile various elements in the remainder of the setup process. There will be a detailed review of each item listed in `Versions.ini`, but for now, we will only be looking at a few key parameters. 
+In this section you will set the default variables used to compile various elements in the remainder of the setup process. There will be a detailed review of each item listed in `Versions.ini`, but for now, we will only be looking at a few key parameters. 
 
 !!! note
     At present, setting the configuration variables is a manual process to a degree. In future releases this will be a more elegant solution.

@@ -1,8 +1,8 @@
-# Setup Conslusion
+# Setup Conclusion
 
 This setup process only touched on the basics of what the environment can do. Exploring the remaining sections will help to understand the vast capabilities a collection of this sort is capable of.
 
-As time goes on with the this stream, more documentation will be added to highlight use case senarios in addition to more advanced topics of the `JTSDK64-Tools` echosystem.
+As time goes on with the this stream, more documentation will be added to highlight use case scenarios in addition to more advanced topics of the `JTSDK64-Tools` ecosystem.
 
 ## Desktop Final Results
 

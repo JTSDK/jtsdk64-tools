@@ -9,7 +9,7 @@ This section will cover the base tool(s) installation using the InnoSetup Instal
 
 ## Download Installer
 
-Download the lateest version of JTSDK64-Tools v3.2.0 from [Hamlib-SDK][], then search your download folder for the installer.
+Download the latest version of JTSDK64-Tools v3.2.0 from [Hamlib-SDK][], then search your download folder for the installer.
 
 - [Direct Download Link][]
 
@@ -18,7 +18,7 @@ SHA1 and MD5 validation is available from [Hamlib-SDK][] by using the informatio
 
 <figure>
   <img src="../images/1-Download-Installer-2.PNG" width=auto />
-  <figcaption>SHA and MD5 Validaiton</figcaption>
+  <figcaption>SHA and MD5 Validation</figcaption>
 </figure>
 
 
@@ -82,7 +82,7 @@ Verify Installation information and start.
   <figcaption>Ready to Install</figcaption>
 </figure>
 
-Upon sucessfiul installaiton, click `Finish`.
+Upon successful installation, click `Finish`.
 
 <figure>
   <img src="../images/2-Run-Installer-8.PNG" width=auto />
@@ -91,7 +91,7 @@ Upon sucessfiul installaiton, click `Finish`.
 
 ## Verify Desktop Icons
 
-After a sucessful installaiton (if you elected desktop shortcuts above), you should have two new icon's present. You can run them from the desktop, or the Windows menu system. The choice is yours.
+After a successful installation (if you elected desktop shortcuts above), you should have two new icon's present. You can run them from the desktop, or the Windows menu system. The choice is yours.
 
 - JTSDK64-Tools
 - JTSDK64-Setup

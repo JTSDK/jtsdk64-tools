@@ -1,9 +1,9 @@
 # MSYS2 Setup
 
-In this setion, the following tasks will be performed in the `MSYS2 Terminal` lauched from within `JTSDK64-Tools Environment`. Before proceeding, ensure you have closed `JTSDK64-Tools-Setup` and any `MSYS2` terminals before opening the `JTSDK64-Tools` Environment.
+In this section, the following tasks will be performed in the `MSYS2 Terminal` launched from within `JTSDK64-Tools Environment`. Before proceeding, ensure you have closed `JTSDK64-Tools-Setup` and any `MSYS2` terminals before opening the `JTSDK64-Tools` Environment.
 
 !!! caution
-    With MSYS2, **`Do Not`** use the `RED - X` to close the terminal. Get in a habit of typing **`exit`** from within the terminal itself to properly close the session as not doing so can cause stranded threads and other anamolies in the environment.
+    With MSYS2, **`Do Not`** use the `RED - X` to close the terminal. Get in a habit of typing **`exit`** from within the terminal itself to properly close the session as not doing so can cause stranded threads and other anomalies in the environment.
 
 Tasks to perform:
 
@@ -26,7 +26,7 @@ From the Desktop Link or Windows Search menu, find and launch the `JTSDK54-Tools
 msys2
 
 ```
-Upon opening `MSYS2` ensure you have a Qt version listed at the top of the terminal. If you do not, you need invistigate why it is not present before continuing.
+Upon opening `MSYS2` ensure you have a Qt version listed at the top of the terminal. If you do not, you need investigate why it is not present before continuing.
 
 <figure>
   <img src="../images/4-MSYS2-0.PNG" width=auto />
@@ -42,7 +42,7 @@ From the main MSYS2 terminal, launch the menu and update the packaging using men
   <figcaption>MSYS2 Main Menu</figcaption>
 </figure>
 
-At the completion of the update, exit the menu system (type `exit` from the MSYS2 trerminal) and re-open `MSYS2` from `JTSDK54-Tools` again.
+At the completion of the update, exit the menu system (type `exit` from the MSYS2 terminal) and re-open `MSYS2` from `JTSDK54-Tools` again.
 
 !!! note
     Over time, there may be more package updates than what is shown in this document and your results may not always match the example presented here. This is normal, and to a degree, expected.
