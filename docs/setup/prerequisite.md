@@ -11,7 +11,7 @@ is their open-source use policy which prevents anonymous downloading of componen
 To create and validate a service account, perform the following:
 
 - [Register][] for an account
-- Use a valid emial address during registration
+- Use a valid email address during registration
 - After creating the account, check your email
 - Using the email sent from registration, activate the account
 
@@ -20,7 +20,7 @@ Anytime you use the Qt Online Installer or Qt Maintenance Tool, you will need th
 ## Security Note
 
 !!! caution
-    It is  entirly up to the user what to use, however, it is highly recomended that you provide unique credentials for your [Qt Account][]. Do **`NOT`** use a sensitive password, or one that you have used elsewhere.
+    It is entirly up to the user what to use, however, it is highly recomended that you provide unique credentials for your [Qt Account][]. Do **`NOT`** use a sensitive password, or one that you have used elsewhere.
 
 
 [Qt Account]: https://login.qt.io/login
