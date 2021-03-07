@@ -43,7 +43,7 @@ Set the following defaults when asked:
 - VS Code set to `Y`
 
 !!! note
-    VS Code is optional. However, it is a highly capable editor that performs many tasks including integrated an Bash, PowerShell and CMD terminals. It's up to the user, but, the development team recommends its use.
+    VS Code is optional. However, it is a highly capable editor that performs many tasks including integrated Bash, PowerShell and Windows CMD terminals. It's up to the user, but, the development team recommends its use.
 
 <figure>
   <img src="../images/3-Run-Setup-4.PNG" width=auto />
