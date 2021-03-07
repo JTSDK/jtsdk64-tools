@@ -1,11 +1,11 @@
 # Build Hamlib
 
-If all has gone without error to this point, you are ready to build `Hamlib` from a git repository. At present, the preferred repsotory is the Hamlib Master. If this changes for WSJT-X, you can always adjust it with menu option (**8**).
+If all has gone without error to this point, you are ready to build `Hamlib` from a git repository. At present, the preferred repository is the Hamlib Master. If this changes for WSJT-X, you can always adjust it with menu option (**8**).
 
 Using the `MSYS2` Menu, select option (**8**), followed by selecting (**1**) to set the Mater Repository, then (**e**) to return to the main menu.
 
 !!! note
-    The default after installation of the tool chain is set to `hlmaster`. This step is to illustrate how to change the repository if and when it is needed.
+    The default selection is set to `hlmaster` during the base installation. This step is to illustrate how to change the repository if and when it is needed.
 
 <figure>
   <img src="../images/4-MSYS2-6.PNG" width=auto />

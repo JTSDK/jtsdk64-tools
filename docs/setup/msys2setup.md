@@ -1,6 +1,9 @@
 # MSYS2 Setup
 
-In this setion, the following tasks will be performed in the `MSYS2 Terminal` lauched from within `JTSDK64-Tools Environment`. Before proceeding, ensure you have closed all `JTSDK64-Tools-Setup` and any `MSYS2` terminals before opening the `JTSDK64-Tools` Environment.
+In this setion, the following tasks will be performed in the `MSYS2 Terminal` lauched from within `JTSDK64-Tools Environment`. Before proceeding, ensure you have closed `JTSDK64-Tools-Setup` and any `MSYS2` terminals before opening the `JTSDK64-Tools` Environment.
+
+!!! caution
+    With MSYS2, **`Do Not`** use the `RED - X` to close the terminal. Get in a habit of typing **`exit`** from within the terminal itself to properly close the session as not doing so can cause stranded threads and other anamolies in the environment.
 
 Tasks to perform:
 
@@ -12,8 +15,6 @@ Tasks to perform:
 - Close and Re-Open MSYS2 from `JTSDK64-Tools Environment`
 - Build Hamlib Static assemblies via menu option (5)
 
-!!! caution
-    With MSYS2, **`Do Not`** use the `RED - X` to close the terminal. Get in a habit of typing **`exit`** from within the terminal itself to properly close the session as not doing so can cause stranded threads and other anamolies in the environment.
 
 ## Open JTSDK64-Tools
 

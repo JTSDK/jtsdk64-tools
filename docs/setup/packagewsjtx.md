@@ -1,13 +1,13 @@
 # Package WSJT-X
 
-The final test for the setup process is to functionally test a packge build for `WSJT-X`. Using the packge option will exercise most of the critical components of the tool chain against a default configuration.
+For the final test you will run the `WSJT-X` package build option. Using the package option will exercise most of the critical components of the tool chain against a default configuration.
 
 # JTBuild Package
 
 For this step we use `jtbuild` to kick off the the process. 
 
 ```powershell
-# At the default prompt in `JTSDK64-Tools, type: 
+# At the prompt in `JTSDK64-Tools, type: 
 
 jtbuild package
 
@@ -30,7 +30,7 @@ The output from a sucessful build should resemble the following:
 
 # WSJT-X Installed
 
-The last, and most important step, is run the package installer verifying that `WSJT-X` is functional.
+The last, and most important step, is run the package installer to verify `WSJT-X` is functional.
 
 <figure>
   <img src="../images/6-Build-WSJTX-3.PNG" width=auto />

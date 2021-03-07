@@ -1,6 +1,6 @@
 # Base Installation
 
-This section will cover the base tools installation using the provided InnoSetup Windows installer. For most for the screens, one only needs to use the default(s) provided.
+This section will cover the base tool(s) installation using the InnoSetup Installer. For most of the screens, one only needs to use the default(s) provided.
 
 !!! note
     The images presented during installation were snipped on a new VirtualBox Win-10 image. `Nothing` was installed
@@ -54,7 +54,7 @@ Accept the License terms and click `Next`
   <figcaption>Accept License Terms</figcaption>
 </figure>
 
-Use the default Destination Lication and click `Next`
+Use the default Destination Location and click `Next`
 
 <figure>
   <img src="../images/2-Run-Installer-4.PNG" width=auto />
@@ -91,7 +91,7 @@ Upon sucessfiul installaiton, click `Finish`.
 
 ## Verify Desktop Icons
 
-After a sucessful installaiton (if you elected desktop shortcuts above), you should have two new icon's present. You can run them from the desktop, or the Windows menustsrem. The choice is yours.
+After a sucessful installaiton (if you elected desktop shortcuts above), you should have two new icon's present. You can run them from the desktop, or the Windows menu system. The choice is yours.
 
 - JTSDK64-Tools
 - JTSDK64-Setup

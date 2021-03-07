@@ -15,14 +15,14 @@ This process can take from an hour or so to many hours depending on your system 
 
 ## JTSDK64 Tools Setup
 
-After completing the base installation, use the desktop icon or Win-10 search bar to find and open `JTSDK64-Tools-Setup`. Upon initial opening, you see the following screen. At the prompt, just hit enter.
+After completing the base installation, use the desktop icon or Win-10 search bar to find and open `JTSDK64-Tools-Setup`. Upon initial opening, you should see the following screen. At the prompt, just hit enter.
 
 <figure>
   <img src="../images/3-Run-Setup-2.PNG" width=auto />
   <figcaption>JTSDK64 Setup Initial Screen</figcaption>
 </figure>
 
-Once you are at the Post Install Setup Selection screen you will see the current environment. At the prompt, type: 
+Once you are at the Post Install Setup Selection screen you will see the current environment. At the prompt, type: **`postinstall`**
 
 <figure>
   <img src="../images/3-Run-Setup-3.PNG" width=auto />
@@ -31,7 +31,7 @@ Once you are at the Post Install Setup Selection screen you will see the current
 
 ## Tool Selection
 
-For this example, we will be doing the minimal install selection for building `WSJT-X`. 
+For this example, we will be using a minimal install configuration for building `WSJT-X`. 
 
 Set the following defaults when asked:
 
@@ -43,7 +43,7 @@ Set the following defaults when asked:
 - VS Code set to `Y`
 
 !!! note
-    VS Code is optional. However, it is a highly capable editor that performs many tasks including integrated Bash, PowerShell and CMD terminals. It's up to the user, but, the development team recommends its use.
+    VS Code is optional. However, it is a highly capable editor that performs many tasks including integrated an Bash, PowerShell and CMD terminals. It's up to the user, but, the development team recommends its use.
 
 <figure>
   <img src="../images/3-Run-Setup-4.PNG" width=auto />
@@ -52,7 +52,7 @@ Set the following defaults when asked:
 
 ## VC Redist Install
 
-The first action will be to downloand and install MS VS Redist. This is mostly automated, but you will be prompeted to allow installation in the form of the usual UAC prompt from Windows.
+The first action will be to downloand and install MS VS Redist. This is mostly automated, but you will be prompeted to allow installation by the normal Windows UAC prompts.
 
 <figure>
   <img src="../images/3-Run-Setup-5.PNG" width=auto />
@@ -75,24 +75,26 @@ Omnirig Install Prompt.
   <figcaption>Omnirig Installation Prompt</figcaption>
 </figure>
 
-Omnirig Install
+## Install VS Code
+
+The VS Code installer should appear, and again you should be prompted with the normal Windows UAC prompts.
 
 <figure>
   <img src="../images/3-Run-Setup-8.PNG" width=auto />
-  <figcaption>Omnirig Installation</figcaption>
+  <figcaption>VS Code Installation</figcaption>
 </figure>
 
 
 ## Qt Installation
 
-The `Qt` installation can be a lengthy process. The default selection installs all that is needed for a base `WSJT=X` build. When the UX appears, you will need the following:
+The `Qt` installation can be a rather lengthy process. The default selection installs all that is needed for a base `WSJT-X` build. When the UX appears, you will need the following:
 
 - Your Qt account username/email address
 - Your Qt account Password
 
 <figure>
   <img src="../images/3-Run-Setup-9.PNG" width=auto />
-  <figcaption>Qt Install Account Screen</figcaption>
+  <figcaption>Qt Account Screen</figcaption>
 </figure>
 
 Open Source Obligations. Have a read though them if this is the first time using Qt. Additional, ensure you check the box stating you are an individual user, not a company.
@@ -129,7 +131,7 @@ Upon completion, you will see (in the Powershell Environment) what components we
 
 ## Close JTSDK64 Tools Setup
 
-At this point, if there were no errors or problems with the automated installers, you are ready to setup MSYS2. This will all be performed int the standard `JTSDK64-Tools` environment ** not** `JTSDK64-Tools-Setup`.
+At this point, if there were no errors or problems with the automated installers, you are ready to setup MSYS2. This will all be performed in the standard `JTSDK64-Tools` environment **not** `JTSDK64-Tools-Setup`.
 
 - Close `JTSDK64-Tools-Setup` environment.
 - Proceed to the next section.
