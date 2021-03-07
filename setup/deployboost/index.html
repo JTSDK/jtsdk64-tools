@@ -542,22 +542,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#boost-unzip-prgoress" class="md-nav__link">
-    Boost Unzip Prgoress
+  <a href="#boost-unzip-progress" class="md-nav__link">
+    Boost Unzip Progress
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#cpu-and-memoy-usage" class="md-nav__link">
-    CPU and Memoy Usage
+  <a href="#cpu-and-memory-usage" class="md-nav__link">
+    CPU and Memory Usage
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#sucessful-completion" class="md-nav__link">
-    Sucessful Completion
+  <a href="#successful-completion" class="md-nav__link">
+    Successful Completion
   </a>
   
 </li>
@@ -990,22 +990,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#boost-unzip-prgoress" class="md-nav__link">
-    Boost Unzip Prgoress
+  <a href="#boost-unzip-progress" class="md-nav__link">
+    Boost Unzip Progress
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#cpu-and-memoy-usage" class="md-nav__link">
-    CPU and Memoy Usage
+  <a href="#cpu-and-memory-usage" class="md-nav__link">
+    CPU and Memory Usage
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#sucessful-completion" class="md-nav__link">
-    Sucessful Completion
+  <a href="#successful-completion" class="md-nav__link">
+    Successful Completion
   </a>
   
 </li>
@@ -1031,10 +1031,10 @@
                 
                 
                 <h1 id="deploy-boost">Deploy Boost<a class="headerlink" href="#deploy-boost" title="Permanent link">&para;</a></h1>
-<p>There are several options for deploying <code>Boost</code>  within the <code>JTSDK64-Tools</code> echosystem. This example will be compiling the library from source so as to test the tool chain and ensure the artifacts are compiled against the same GCC components used to build <code>WSJT-X</code>.</p>
+<p>There are several options for deploying <code>Boost</code>  within the <code>JTSDK64-Tools</code> ecosystem. This example will be compiling the library from source so as to test the tool chain and ensure the artifacts are compiled against the same GCC components used to build <code>WSJT-X</code>.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Downloading, extracting, and compling <code>Boost</code> can take a <strong><code>very long time</code></strong>, in some cases, many hours. Even with high-resource systems and extremely fast internet connections, you are looking at 15 to 20 minutes <strong>minimum</strong>.</p>
+<p>Downloading, extracting, and compiling <code>Boost</code> can take a <strong><code>very long time</code></strong>, in some cases, many hours. Even with high-resource systems and extremely fast internet connections, you are looking at 15 to 20 minutes <strong>minimum</strong>.</p>
 </div>
 <p>Additionally, <code>JTSDK64-Tools</code> has the ability to build multiple versions of <code>Boost</code>. However, <code>WSJT-X</code> needs version <code>1.74.0</code> which is the default for the <code>Boost-Deploy</code> invocation. Variations of building <code>Boost</code> will be covered in the Boost section when it's written.</p>
 <h2 id="start-deployment">Start Deployment<a class="headerlink" href="#start-deployment" title="Permanent link">&para;</a></h2>
@@ -1045,32 +1045,32 @@
   <figcaption>Deploy Boost Invocation</figcaption>
 </figure>
 
-<h2 id="boost-unzip-prgoress">Boost Unzip Prgoress<a class="headerlink" href="#boost-unzip-prgoress" title="Permanent link">&para;</a></h2>
+<h2 id="boost-unzip-progress">Boost Unzip Progress<a class="headerlink" href="#boost-unzip-progress" title="Permanent link">&para;</a></h2>
 <p>This steps is very slow, so be patient.</p>
 <figure>
   <img src="../images/5-Deploy-Boost-2.PNG" width=auto />
   <figcaption>Unzip Boost Archive</figcaption>
 </figure>
 
-<h2 id="cpu-and-memoy-usage">CPU and Memoy Usage<a class="headerlink" href="#cpu-and-memoy-usage" title="Permanent link">&para;</a></h2>
+<h2 id="cpu-and-memory-usage">CPU and Memory Usage<a class="headerlink" href="#cpu-and-memory-usage" title="Permanent link">&para;</a></h2>
 <p>CPU Usage during the build process can be quite high. It is  best to leave it run and not try to perform other tasks during compilation.</p>
 <figure>
   <img src="../images/5-Deploy-Boost-4.PNG" width=auto />
   <figcaption>Boost CPU Usage</figcaption>
 </figure>
 
-<p>With tests performed in a Virtual Machine given 32GB of RAM, the max memory usage appears to be around 13GB to 15GB without any custom settings. A VM allocation of 16GB looks to be a good number for those looking to trim the numebrs.</p>
+<p>With tests performed in a Virtual Machine given 32GB of RAM, the max memory usage appears to be around 13GB to 15GB without any custom settings. A VM allocation of 16GB looks to be a good number for those looking to trim the numbers.</p>
 <figure>
   <img src="../images/5-Deploy-Boost-5.PNG" width=auto />
   <figcaption>Boost Memory Usage</figcaption>
 </figure>
 
-<h2 id="sucessful-completion">Sucessful Completion<a class="headerlink" href="#sucessful-completion" title="Permanent link">&para;</a></h2>
+<h2 id="successful-completion">Successful Completion<a class="headerlink" href="#successful-completion" title="Permanent link">&para;</a></h2>
 <p>While there are stated failed updates and skipped targets, the build appears to work as expected using the Qt tool chain.</p>
 <p>As stated in this image, the artifacts are moved to the <code>1.74.0</code> boost directory and ready for use in building <code>WSJT-X</code>.</p>
 <figure>
   <img src="../images/5-Deploy-Boost-6.PNG" width=auto />
-  <figcaption>Sucessful Build</figcaption>
+  <figcaption>Successful Build</figcaption>
 </figure>
 
 <h2 id="boost-validation">Boost Validation<a class="headerlink" href="#boost-validation" title="Permanent link">&para;</a></h2>
@@ -1084,7 +1084,7 @@
   <figcaption>Boost Presence Validation</figcaption>
 </figure>
 
-<p>This concludes building Deploying Boost. If there were no critical failures, you can proceed to builing the <code>WSJT-X</code> package.</p>
+<p>This concludes building Deploying Boost. If there were no critical failures, you can proceed to building the <code>WSJT-X</code> package.</p>
                 
               
               

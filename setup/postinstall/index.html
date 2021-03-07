@@ -1061,8 +1061,8 @@
                 <h1 id="post-installation">Post Installation<a class="headerlink" href="#post-installation" title="Permanent link">&para;</a></h1>
 <p>The post install section will walk users though the required actions following the base installation. By far, <code>postinstall</code> represents the lions share of the setup and will perform the following tasks:</p>
 <ul>
-<li>VC/C++ Runtime Installation</li>
-<li>Git-SCM installaiton</li>
+<li>VC/C++ Runtime installation</li>
+<li>Git-SCM installation</li>
 <li>VS Code installation</li>
 <li>Qt configuration (default of full)</li>
 <li>Initial MSYS2 Setup</li>
@@ -1070,7 +1070,7 @@
 <p>This process can take from an hour or so to many hours depending on your system resources and internet speed. </p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>As of this writing <code>(3/6/2021)</code>, the Qt Online Installer has a circular dependency on MS VC redit dll's. They are not present in a new Win-10 image, yet the Qt Online Installer requires them to run. As such, the <code>postinstall</code> script will download and install them for you prior to running the <code>Qt Online Installer</code>.</p>
+<p>As of this writing <code>(3/6/2021)</code>, the Qt Online Installer has a circular dependency on MS VC Redit dll's. They are not present in a new Win-10 image, yet the Qt Online Installer requires them to run. As such, the <code>postinstall</code> script will download and install them for you prior to running the <code>Qt Online Installer</code>.</p>
 </div>
 <h2 id="jtsdk64-tools-setup">JTSDK64 Tools Setup<a class="headerlink" href="#jtsdk64-tools-setup" title="Permanent link">&para;</a></h2>
 <p>After completing the base installation, use the desktop icon or Win-10 search bar to find and open <code>JTSDK64-Tools-Setup</code>. Upon initial opening, you should see the following screen. At the prompt, just hit enter.</p>
@@ -1106,14 +1106,14 @@
 </figure>
 
 <h2 id="vc-redist-install">VC Redist Install<a class="headerlink" href="#vc-redist-install" title="Permanent link">&para;</a></h2>
-<p>The first action will be to downloand and install MS VS Redist. This is mostly automated, but you will be prompeted to allow installation by the normal Windows UAC prompts.</p>
+<p>The first action will be to downloand and install MS VS Redist. This is mostly automated, but you will be prompted to allow installation by the normal Windows UAC prompts.</p>
 <figure>
   <img src="../images/3-Run-Setup-5.PNG" width=auto />
   <figcaption>VS Redist Installation</figcaption>
 </figure>
 
 <h2 id="install-omnirig">Install Omnirig<a class="headerlink" href="#install-omnirig" title="Permanent link">&para;</a></h2>
-<p>Next up is Omnirig. If the download is sucessful (sometimes the download fails, so be prepared) you will see the install wizard appear. Use the defaults and progress through all screens using the <code>Next</code> button.</p>
+<p>Next up is Omnirig. If the download is successful (sometimes the download fails, so be prepared) you will see the install wizard appear. Use the defaults and progress through all screens using the <code>Next</code> button.</p>
 <figure>
   <img src="../images/3-Run-Setup-6.PNG" width=auto />
   <figcaption>Omnirig Installation</figcaption>
@@ -1155,10 +1155,10 @@
   <figcaption>Qt Contribute to Development</figcaption>
 </figure>
 
-<p>Component selction and agreements are pre-selected for you. All that is left at this point is to sit back and wait for the download an installation to progress.</p>
+<p>Component selection and agreements are pre-selected for you. All that is left at this point is to sit back and wait for the download an installation to progress.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>The only way to cancel the UX at this point (becasue it's scripted) is to use the Windows Task Manager to kill the process (if needed).</p>
+<p>The only way to cancel the UX at this point (due to scripted) is to use the Windows Task Manager to kill the process (if needed).</p>
 </div>
 <figure>
   <img src="../images/3-Run-Setup-12.PNG" width=auto />
