@@ -6,10 +6,12 @@ As time goes on with this stream, more documentation will be added to highlight 
 
 ## Desktop Final Results
 
-After running the `WSJT-X` package installer, and if you followed the recommendation of this document, you should have several new desktop items available:
+After running the `WSJT-X` package installer, and if you followed the recommendation in this guide, you should have several new desktop items available:
 
 <figure>
-  <img src="../images/6-Run-Setup=1a" width=auto />
+  <img src="../images/3-Run-Setup-1a.PNG" width=auto />
   <figcaption>New Desktop Icons</figcaption>
 </figure>
 
+
+If you made it this far **`Go Have a Beer and Celebrate !!`**

@@ -2,7 +2,7 @@
 
 This section will walk users through (step-by-step) the process of installing all required componsnts for compiling [Hamlib], [Boost], and fiinally [WSJT-X][]. If you follow this guide you should have a working [WSJT-X] package that can be installed upon completion.
 
-It is highly recommended that users `uninstall` all previous JTSDK componsnts before using this guide. There are ways to work around this requirement, however, it can be teadious and error prone. For the best results, a clean install is the development teams recomendation.
+It is highly recommended that users `uninstall` all previous JTSDK components before using this guide. There are ways to work around this requirement, however, it can be teadious and error prone. For the best results, a clean install is the development teams recomendation.
 
 ## Installation Order
 

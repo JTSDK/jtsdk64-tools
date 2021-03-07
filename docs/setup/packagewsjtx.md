@@ -21,7 +21,7 @@ jtbuild package
 
 ## Competed Package
 
-The output from a sucessful should should resemble the following:
+The output from a sucessful build should resemble the following:
 
 <figure>
   <img src="../images/6-Build-WSJTX-2.PNG" width=auto />
@@ -30,11 +30,11 @@ The output from a sucessful should should resemble the following:
 
 # WSJT-X Installed
 
-The last, and most important step is run the package installer, and verify that `WSJT-X` is functional.
+The last, and most important step, is run the package installer verifying that `WSJT-X` is functional.
 
 <figure>
   <img src="../images/6-Build-WSJTX-3.PNG" width=auto />
   <figcaption>WSJT-X Running after Install</figcaption>
 </figure>
 
-This concludes the setup and test sections for `JTSDK64-Tools`.
+This concludes the setup and test sections for `JTSDK64-Tools`. 

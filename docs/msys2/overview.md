@@ -1,3 +1,3 @@
->Under Development
+>Under Construction
 
-This section will discuss using MSYS2 for compiling Hamlib.
+This section will discuss various aspects of using MSYS2 and compiling Hamlib.

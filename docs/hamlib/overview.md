@@ -1,3 +1,3 @@
->Under Development
+>Under Construction
 
-This section will discuss various of compiling Hamlib.
+This section will discuss various aspects of compiling Hamlib.
