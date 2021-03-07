@@ -1,6 +1,6 @@
 # Post Installation
 
-The post install section will walk users though the required actions following the the base installation. By far, `postinstall` represents the lions share of the setup and will perform the following tasks:
+The post install section will walk users though the required actions following the base installation. By far, `postinstall` represents the lions share of the setup and will perform the following tasks:
 
 - VC/C++ Runtime Installation
 - Git-SCM installaiton
