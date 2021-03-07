@@ -6,7 +6,7 @@ It is highly recommended that users `uninstall` all previous JTSDK components be
 
 ## Installation Order
 
-While some areas can be skipped, or added later, this guide--and this authors personal recommendation--will proceed in the oder listed. Advanced users may elect to move through the order as they see fit, however, be aware of the limitation and potential for issues in doing so.
+While some areas can be skipped, or added later, this guide--and this authors personal recommendation--will proceed in the order listed. Advanced users may elect to move through the order as they see fit, however, be aware of the limitation and potential for issues in doing so.
 
 ## Living Document
 
@@ -14,7 +14,7 @@ Many sections of this site are `under construction`. As new content is made avai
 
 ## Preferred Environment
 
-If and where possible, users should first install `JTSDK64-Tools` in a Virtual Machine (VM). While the process aims to prevent unforseen events to the users main system, there is always the potential for issues to ariase, thus, using a VM  will help mitigate such risk.
+If and where possible, users should first install `JTSDK64-Tools` in a Virtual Machine (VM). While the process aims to prevent unforseen events to the users main system, there is always the potential for issues to ariase, thus, using a VM will help mitigate such risk.
 
 ## System Requierments
 
