@@ -13,5 +13,4 @@ After running the `WSJT-X` package installer, and if you followed the recommenda
   <figcaption>New Desktop Icons</figcaption>
 </figure>
 
-
 If you made it this far **`Go Have a Beer and Celebrate !!`**

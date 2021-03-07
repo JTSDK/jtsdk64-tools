@@ -21,7 +21,7 @@ jtbuild package
 
 ## Competed Package
 
-The output from a sucessful build should resemble the following:
+The output from a suCcessful build should resemble the following:
 
 <figure>
   <img src="../images/6-Build-WSJTX-2.PNG" width=auto />

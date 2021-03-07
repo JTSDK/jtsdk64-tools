@@ -22,14 +22,13 @@ There is no question, the more system resources (CPU cores, RAM, Disk IO, Networ
 
 By far, the most time intensive elements for the the entire setup process is related to downloading installing [Qt][], followed by a lengthy compile time for [Boost][].
 
-While one can get away with a small comodity-based computer for development work, the following would be a safe-minium for those wanting somewhat reasonable performance:
+While one can get away with a small commodity-based computer for development work, the following would be a safe-minium for those wanting somewhat reasonable performance:
 
 - CPU with 4 cores (8 threads) or more
 - RAM of at least 8GB, 16GB or more preferred
 - SSD disk IO wherever possible, or a high RPM (10K+) SAS/SATA spin drive
 - At least 15Gb to 20GB of free disk space
 - Network Speed, the higher the better, but 2Mbps to 4Mbps at a minimum.
-
 
 [WSJT-X]: http://physics.princeton.edu/pulsar/K1JT/wsjtx.html
 [Hamlib]: https://github.com/Hamlib

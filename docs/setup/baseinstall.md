@@ -13,7 +13,6 @@ Download the latest version of JTSDK64-Tools v3.2.0 from [Hamlib-SDK][], then se
 
 - [Direct Download Link][]
 
-
 SHA1 and MD5 validation is available from [Hamlib-SDK][] by using the information icon next to the file in question.
 
 <figure>
@@ -21,14 +20,12 @@ SHA1 and MD5 validation is available from [Hamlib-SDK][] by using the informatio
   <figcaption>SHA and MD5 Validation</figcaption>
 </figure>
 
-
 Location of downloaded installer package.
 
 <figure>
   <img src="../images/1-Download-Installer.PNG" width=auto />
   <figcaption>Downloaded Installer File</figcaption>
 </figure>
-
 
 ## Run Installer
 
@@ -45,7 +42,6 @@ When prompted, select the `More Info` link and then `Run Anyway`
   <img src="../images/2-Run-Installer-2.PNG" width=auto />
   <figcaption>More Infor Selection</figcaption>
 </figure>
-
 
 Accept the License terms and click `Next`
 
@@ -100,7 +96,6 @@ After a successful installation (if you elected desktop shortcuts above), you sh
   <img src="../images/3-Run-Setup-1.PNG" width=auto />
   <figcaption>New Desktop Icon's</figcaption>
 </figure>
-
 
 <!-- In Document HREF Links -->
 [Hamlib-SDK]: https://sourceforge.net/projects/hamlib-sdk/files/Windows/JTSDK-3.2.0-x64-Stream/

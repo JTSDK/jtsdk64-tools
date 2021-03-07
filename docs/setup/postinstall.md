@@ -52,7 +52,7 @@ Set the following defaults when asked:
 
 ## VC Redist Install
 
-The first action will be to downloand and install MS VS Redist. This is mostly automated, but you will be prompted to allow installation by the normal Windows UAC prompts.
+The first action will be to download and install MS VS Redist. This is mostly automated, but you will be prompted to allow installation by the normal Windows UAC prompts.
 
 <figure>
   <img src="../images/3-Run-Setup-5.PNG" width=auto />

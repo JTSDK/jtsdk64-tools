@@ -12,9 +12,7 @@ Using the `MSYS2` Menu, select option (**8**), followed by selecting (**1**) to 
   <figcaption>Select Hamlib Repository</figcaption>
 </figure>
 
-
 After setting the repository, use the menu option (**5**) to commence the `Hamlib` build. If all goes as expected, you should see results similar to the following:
-
 
 During the Build:
 

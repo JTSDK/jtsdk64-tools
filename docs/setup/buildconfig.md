@@ -31,7 +31,7 @@ This will open the `Version.ini` file in VS Code editor. Set the variables as in
 </figure>
 
 !!! note
-    What one uses for CPU count is entirely up to the them. Just know, the more threads you use, the faster build times will be. Most are using a Virtual Machine, and in doing so, they use all the cores they've allocated in the VM. The optins are `All`, `Half`, or `Solo`. For the remainder of options, there is only `Yes` or `No` available.
+    What one uses for CPU count is entirely up to the them. Just know, the more threads you use, the faster build times will be. Most are using a Virtual Machine, and in doing so, they use all the cores they've allocated in the VM. The options are `All`, `Half`, or `Solo`. For the remainder of options, there is only `Yes` or `No` available.
 
 
 Set the following options:
