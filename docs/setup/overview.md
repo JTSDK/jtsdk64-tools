@@ -173,7 +173,7 @@ jthelp
 For the most part, users have little to no interaction with this script other than running it from within `MSYS2`. However,
 It's a vital component to the overall build for `WSJT-X`.
 
-As shown in the [MSYS2](#msys2) section, using the menu (5) is all the user needs to produce ready-to-use Hamlib artifacts. More advanced options can and will be explored in later sections.
+As shown in the [MSYS2](#msys2) section, using menu option (5) is all the user needs to produce ready-to-use Hamlib artifacts. More advanced options can and will be explored in later sections.
 
 <figure>
   <img src="../images/5-Build-Hamlib-3.PNG" width=auto />
