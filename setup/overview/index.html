@@ -472,9 +472,64 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#system-requierments" class="md-nav__link">
-    System Requierments
+  <a href="#system-requirements" class="md-nav__link">
+    System Requirements
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#major-components" class="md-nav__link">
+    Major Components
+  </a>
+  
+    <nav class="md-nav" aria-label="Major Components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#jtsdk64-setup" class="md-nav__link">
+    JTSDK64-Setup
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jtsdk64-tools" class="md-nav__link">
+    JTSDK64-Tools
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jtbuild" class="md-nav__link">
+    JTBuild
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qt-maintenance" class="md-nav__link">
+    Qt Maintenance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#msys2" class="md-nav__link">
+    MSYS2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hamlib-build-script" class="md-nav__link">
+    Hamlib Build Script
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -997,9 +1052,64 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#system-requierments" class="md-nav__link">
-    System Requierments
+  <a href="#system-requirements" class="md-nav__link">
+    System Requirements
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#major-components" class="md-nav__link">
+    Major Components
+  </a>
+  
+    <nav class="md-nav" aria-label="Major Components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#jtsdk64-setup" class="md-nav__link">
+    JTSDK64-Setup
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jtsdk64-tools" class="md-nav__link">
+    JTSDK64-Tools
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jtbuild" class="md-nav__link">
+    JTBuild
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qt-maintenance" class="md-nav__link">
+    Qt Maintenance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#msys2" class="md-nav__link">
+    MSYS2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hamlib-build-script" class="md-nav__link">
+    Hamlib Build Script
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1025,7 +1135,7 @@
 <p>Many sections of this site are <code>under construction</code>. As new content is made available it will be added to the site after review. All content will remain relevant to the latest release of the <code>JTSDK64-Tools v3.2.x Stream</code>. Any Change to the Major or Minor version schema will result in a tag of the existing main branch and migration to the next release.</p>
 <h2 id="preferred-environment">Preferred Environment<a class="headerlink" href="#preferred-environment" title="Permanent link">&para;</a></h2>
 <p>If and where possible, users should first install <code>JTSDK64-Tools</code> in a Virtual Machine (VM). While the process aims to prevent unforeseen events to the users main system, there is always the potential for issues to arise, thus, using a VM will help mitigate such risk.</p>
-<h2 id="system-requierments">System Requierments<a class="headerlink" href="#system-requierments" title="Permanent link">&para;</a></h2>
+<h2 id="system-requirements">System Requirements<a class="headerlink" href="#system-requirements" title="Permanent link">&para;</a></h2>
 <p>There is no question, the more system resources (CPU cores, RAM, Disk IO, Network Speed, etc) the compiling system has, the better the overall performance will be. Completion times, based on a number of end-user reports, have ranged from <code>2.5 hours</code> to a <code>full day</code>, so plan accordingly.</p>
 <p>By far, the most time intensive elements for the the entire setup process is related to downloading installing <a href="https://www.qt.io/download">Qt</a>, followed by a lengthy compile time for <a href="https://www.boost.org/">Boost</a>.</p>
 <p>While one can get away with a small commodity-based computer for development work, the following would be a safe-minium for those wanting somewhat reasonable performance:</p>
@@ -1036,6 +1146,126 @@
 <li>At least 15Gb to 20GB of free disk space</li>
 <li>Network Speed, the higher the better, but 2Mbps to 4Mbps at a minimum.</li>
 </ul>
+<h2 id="major-components">Major Components<a class="headerlink" href="#major-components" title="Permanent link">&para;</a></h2>
+<p>While there are many tools and applications included in the <code>JTSDK64-Tools</code> kit, it is important to understand (at a high level) the primary environments used for setup, administration, and the building of artifacts; those being:</p>
+<ul>
+<li><a href="#jtsdk64-setup">JTSDK64-Setup</a> is an Windows/PowerShell environment</li>
+<li><a href="#jtsdk64-tools">JTSDK64-Tools</a> is an Windows/PowerShell environment</li>
+<li><a href="#jtbuild">JTBuild</a> is a PowerShell script used to compile WSJT-X</li>
+<li><a href="#qt-maintenance">Qt Maintenance</a> is an Windows application / component installer</li>
+<li><a href="#msys2">MSYS2</a> is an GNU/Unix style environment</li>
+<li><a href="#hamlib-build-script">Hamlib-Build</a> is a Bash script used in the MSYS2 environment to compile Hamlib</li>
+</ul>
+<p>The following is a brief overview of each, and how they relate to the overall <code>JTSDK64-Tools</code> package.</p>
+<h3 id="jtsdk64-setup">JTSDK64-Setup<a class="headerlink" href="#jtsdk64-setup" title="Permanent link">&para;</a></h3>
+<p>The <code>JTSDK64-Setup</code> environment is used for initial installation and follow up modification(s) of major components that control what will eventually be used in to build artifacts (<code>WSJT-X</code>, <code>Hamlib</code>, <code>Boost</code>). By default, its display gives users a snapshot of their tool chain components (<code>Installed</code>, <code>Not Installed</code>). The setup environment also provides access to two key functions:</p>
+<ul>
+<li>Postinstall</li>
+<li>msys2</li>
+</ul>
+<p><strong><code>Postinstall</code></strong> is used for, as the name suggests, installing components after the <code>Base Installation</code>. The <code>postinstall</code> function downloads, installs and configures VS Redist, Qt, Git-SCM, VS Code, and MSYS2 in addition to checking the install status of critical components.</p>
+<p><strong><code>MSYS2</code></strong>, from within the <code>JTSDK64-Setup</code> environment, launches the shell for the first time in preparation for package updates, Hamlib dependency installation, Key Ring updates, and more.</p>
+<p>Generally, <code>msys2</code> is launched from within <code>JTSDK64-Tools</code> environment where it receives path variables needed for compiling Hamlib. It provides access to hundreds, if not thousands, of GNU/Unix based applications in a robust <code>Bash</code> shell.</p>
+<figure>
+  <img src="../images/0-overview-1.PNG" width=auto />
+  <figcaption>JTSDK64-Setup After Full Installation</figcaption>
+</figure>
+
+<h3 id="jtsdk64-tools">JTSDK64-Tools<a class="headerlink" href="#jtsdk64-tools" title="Permanent link">&para;</a></h3>
+<p><strong><code>JTSDK64-Tools</code></strong> is provides access to all tools and frameworks outside of the <code>MSYS2</code> ecosystem. It is used for, among other things, building <code>WSJT-X</code>, <code>JTDX</code>, <code>JS8CALL</code>. The main display gives user the status of all the major tool chain components in use and their version, where applicable. The three primary commands in this environment are:</p>
+<ul>
+<li>Deploy-Boost</li>
+<li>MSYS2 Environment</li>
+<li>JTBuild</li>
+</ul>
+<p><strong><code>Deploy-Boost</code></strong> is used for downloading <code>Boost</code> source code, compiling artifacts, and moving them into the <code>JTSDK64-Tools</code> folder structure for later use by <code>JTBuild</code>.</p>
+<p><strong><code>msys2</code></strong> is a shell command that will launch the <code>MSYS2</code> environment with critical path variables pointing to libraries such as <code>FFTW</code>, <code>Libusb</code> and tool chain components like GCC 5.12.10 [mingw73_64]. Many, but not all, are required for compiling Hamlib.</p>
+<p><strong><code>jtbild</code></strong> is a shell script that is used for building all facets of <code>WSJT-X</code> which include:</p>
+<ul>
+<li>Release Configuration, config only</li>
+<li>Debug Configuration, config only</li>
+<li>Release Install, Non-Package Install</li>
+<li>Debug Install, Non-Package Debug Enabled</li>
+<li>Package, Windows Installer</li>
+<li>Docs, the WSJT-X documentation</li>
+</ul>
+<figure>
+  <img src="../images/0-overview-2.PNG" width=auto />
+  <figcaption>JTSDK64-Tools After Full Installation</figcaption>
+</figure>
+
+<h3 id="jtbuild">JTBuild<a class="headerlink" href="#jtbuild" title="Permanent link">&para;</a></h3>
+<p>As mentioned previously, <code>jtbuild</code> is a Windows PowerShell script used to configure and compile <code>WSJT-X</code>. The invocation is run from within the <code>JTSDK64-Tools</code> environment. For a list of options, a simple help menu is provided:</p>
+<div class="highlight"><pre><span></span><code><span class="c"># In JTSDK64-Tools Environment, type:</span>
+
+<span class="n">jtbuild</span> <span class="n">-h</span>
+</code></pre></div>
+<figure>
+  <img src="../images/0-overview-3.PNG" width=auto />
+  <figcaption>JTBuild Help Screen</figcaption>
+</figure>
+
+<h3 id="qt-maintenance">Qt Maintenance<a class="headerlink" href="#qt-maintenance" title="Permanent link">&para;</a></h3>
+<p>After initial setup, you will have an Windows application named <code>Qt Maintenance</code>. It's primary purpose is to manage (install/update/remove) pre-compiled components against varying GCC versions. It also keeps the component dictionary updated. When the <code>Qt</code> development team releases new artifacts, they will automatically be made available through the maintenance tool.</p>
+<p>With the <code>Qt Maintenance</code> tool you can:</p>
+<ul>
+<li>Add or remove components</li>
+<li>Update components</li>
+<li>Remove all components (this is the preferred method of de-installation)</li>
+</ul>
+<figure>
+  <img src="../images/0-overview-4.PNG" width=auto />
+  <figcaption>Qt Maintenance Options</figcaption>
+</figure>
+
+<p>Using the Drop-Down widgets, within the Add or Remove Components option, you can select what you want to manage.
+In the figure below you can see that the installation has Qt 5.12.10 and Development Design tools installed.</p>
+<figure>
+  <img src="../images/0-overview-5.PNG" width=auto />
+  <figcaption>Qt Maintenance Add or Remove Components</figcaption>
+</figure>
+
+<h3 id="msys2">MSYS2<a class="headerlink" href="#msys2" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>MSYS2 is a collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software.</p>
+<p>--<cite><a href="https://www.msys2.org/">The MSYS2 Project</a></cite></p>
+</blockquote>
+<p>For the purposes os <code>JTSDK64-Tools</code>, we use <code>MSYS2</code> for compiling <code>Hamlib</code>, but that only scratches the surface of what it can to. In later sections of this guide we will explore it's capabilities in more detail, but for now, the screen shots below are what's of interest.</p>
+<p>The main screen displays two important commands:</p>
+<ul>
+<li>menu</li>
+<li>jthelp</li>
+</ul>
+<p>The <strong><code>menu</code></strong> option is where you will perform most of the setup and actions. The <code>MSYS2</code> section of the setup guide will go into more details.</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># At the MSYS2 prompt, type:</span>
+
+menu
+</code></pre></div>
+<figure>
+  <img src="../images/0-overview-7.PNG" width=auto />
+  <figcaption>MSYS2 Tools Main Menu</figcaption>
+</figure>
+
+<p>The <strong><code>jthelp</code></strong> options will list the commands (scripts) made available via the <code>JTSDK64 Development Team</code>.</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># At the MSYS2 prompt, type:</span>
+
+jthelp
+</code></pre></div>
+<figure>
+  <img src="../images/0-overview-6.PNG" width=auto />
+  <figcaption>MSYS2 Help Information</figcaption>
+</figure>
+
+<h3 id="hamlib-build-script">Hamlib Build Script<a class="headerlink" href="#hamlib-build-script" title="Permanent link">&para;</a></h3>
+<p>For the most part, users have little to no interaction with this script other than running it from within <code>MSYS2</code>. However,
+It's a vital component to the overall build for <code>WSJT-X</code>.</p>
+<p>As shown in the <a href="#msys2">MSYS2</a> section, using the menu (5) is all the user needs to produce ready-to-use Hamlib artifacts. More advanced options can and will be explored in later sections.</p>
+<figure>
+  <img src="../images/5-Build-Hamlib-3.PNG" width=auto />
+  <figcaption>Hamlib Finished Build</figcaption>
+</figure>
+
+<!-- Page URL Links -->
                 
               
               
