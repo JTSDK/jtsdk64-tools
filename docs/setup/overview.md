@@ -132,7 +132,7 @@ In the figure below you can see that the installation has Qt 5.12.10 and Develop
 >
 --<cite>[The MSYS2 Project](https://www.msys2.org/)</cite>
 
-For the purposes os `JTSDK64-Tools`, we use `MSYS2` for compiling `Hamlib`, but that only scratches the surface of what it can to. In later sections of this guide we will explore it's capabilities in more detail, but for now, the screen shots below are what's of interest.
+For the purposes of `JTSDK64-Tools`, we use `MSYS2` for compiling `Hamlib`, but that only scratches the surface of what it can to. In later sections of this guide we will explore it's capabilities in more detail, but for now, the screen shots below are what's of interest.
 
 The main screen displays two important commands:
 
