@@ -20,7 +20,7 @@ Anytime you use the Qt Online Installer or Qt Maintenance Tool, you will need th
 ## Security Note
 
 !!! caution
-    It is entirely to the user what to use, however, it is highly recommend that you provide unique credentials for your [Qt Account][]. Do **`NOT`** use a sensitive password, or one that you have used elsewhere.
+    You decide what to use, however, it is highly recommend that you provide unique credentials for your [Qt Account][]. Do **`NOT`** use a sensitive password, or one that you have used elsewhere.
 
 
 [Qt Account]: https://login.qt.io/login
