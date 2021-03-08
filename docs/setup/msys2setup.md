@@ -17,7 +17,7 @@ Tasks to perform:
 
 ## Open JTSDK64-Tools
 
-From the Desktop Link or Windows Search menu, find and launch the `JTSDK54-Tools` environment, then launch `MSYS2` from the command-line.
+From the Desktop Link or Windows Search menu, find and launch the `JTSDK64-Tools` environment, then launch `MSYS2` from the command-line.
 
 ```powershell
 # In the JTSDK64-Tools Powershell environment, type:
