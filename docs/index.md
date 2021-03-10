@@ -1,8 +1,8 @@
 # Version v3.2.0
 
-**JTSDK64 Tools** is a collection of 64-Bit [Open Source][] frameworks, library's and associated utilities focused on compiling [WSJT-X][] which is designed for weak-signal digital communication used by Amateur Radio operators world wide.
+`JTSDK64 Tools` is a collection of 64-Bit [Open Source][] frameworks, library's and associated utilities focused on compiling [WSJT-X][] which is designed for weak-signal digital communication used by Amateur Radio operators world wide.
 
-The primary focus of this document is to install and configure **JTSDK64 Core Tools**, or the minimal requirements for compiling [WSJT-X][] including [Hamlib][] and [Boost][]. Everything else is secondary and will be posted in supplemental sections when available.
+The primary focus of this document is to install and configure `JTSDK64 Tools`, or the minimal requirements for compiling [WSJT-X][] including [Hamlib][] and [Boost][]. Everything else is secondary and will be posted in supplemental sections when available.
 
 ## Community Support
 

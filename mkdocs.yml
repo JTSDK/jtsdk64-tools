@@ -41,20 +41,20 @@ nav:
     - 7. Deploy Boost: 'setup/deployboost.md'
     - 8. Package WSJT-X: 'setup/packagewsjtx.md'
     - 9. Conclusion: 'setup/conclusion.md'
-  - Tools:
-    - Overview: 'tools/overview.md'
-  - MSYS2:
-    - Overview: 'msys2/overview.md'
-  - Boost:
-    - Overview: 'boost/overview.md'
-  - Hamlib:
-    - Overview: 'hamlib/overview.md'
-  - WSJT-X:
-    - Overview: 'wsjtx/overview.md'
-  - JS8CALL:
-    - Overview: 'js8call/overview.md'
-  - JTDX:
-    - Overview: 'jtdx/overview.md'
-  - Contribute:
-    - Overview: 'contribute/overview.md'
-  - Credits: credits.md
+#  - Tools:
+#    - Overview: 'tools/overview.md'
+#  - MSYS2:
+#    - Overview: 'msys2/overview.md'
+#  - Boost:
+#    - Overview: 'boost/overview.md'
+#  - Hamlib:
+#    - Overview: 'hamlib/overview.md'
+#  - WSJT-X:
+#    - Overview: 'wsjtx/overview.md'
+#  - JS8CALL:
+#    - Overview: 'js8call/overview.md'
+#  - JTDX:
+#    - Overview: 'jtdx/overview.md'
+#  - Contribute:
+#    - Overview: 'contribute/overview.md'
+#  - Credits: credits.md
