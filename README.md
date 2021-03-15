@@ -1,3 +1,7 @@
+![Powershell](https://img.shields.io/badge/PowerShell-Advanced-teal?style=flat-square)
+![Batch](https://img.shields.io/badge/Batch-Advanced-teal?style=flat-square)
+![Bash](https://img.shields.io/badge/Bash-Advanced-teal?style=flat-square)
+
 # Version v3.2.0
 
 **JTSDK64 Tools** is a collection of 64-Bit [Open Source][] frameworks, library's and associated utilities focused on compiling [WSJT-X][] which is designed for weak-signal digital communication used by Amateur Radio operators world wide.
