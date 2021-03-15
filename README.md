@@ -10,7 +10,7 @@ The primary focus of this document is to install and configure **JTSDK64 Core To
 
 ## Installation
 
-For detail installaion instructions, see [JTSDK64 Setup][]
+For detailed installaion instructions, see [JTSDK64 Setup][]
 
 ## Community Support
 
