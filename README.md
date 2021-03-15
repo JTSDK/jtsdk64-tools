@@ -18,8 +18,6 @@ general discussion, use:
 
 - Post: JTSDK@groups.io
 - Subscribe: JTSDK+subscribe@groups.io
-- Unsubscribe: JTSDK+unsubscribe@groups.io
-- Group Owner: JTSDK+owner@groups.io
 - Help: JTSDK+help@groups.io
 
 ## Bug Reports
