@@ -8,6 +8,10 @@
 
 The primary focus of this document is to install and configure **JTSDK64 Core Tools**, or the minimal requirements for compiling [WSJT-X][] including [Hamlib][] and [Boost][]. Everything else is secondary and will be posted in supplemental sections when available.
 
+## Installation
+
+For detail installaion instructions, see [JTSDK64 Setup][]
+
 ## Community Support
 
 To assist users with installation, usage, compiling applications, and
@@ -39,3 +43,5 @@ and implement the final disposition.
 [WSJT]: http://physics.princeton.edu/pulsar/K1JT/
 [WSJT-X]: http://physics.princeton.edu/pulsar/K1JT/wsjtx.html
 [WSPR]: http://physics.princeton.edu/pulsar/K1JT/wspr.html
+[JTSDK64 Setup]: https://jtsdk.github.io/jtsdk64-tools/setup/overview/#setup-overview
+
