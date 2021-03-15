@@ -1,5 +1,4 @@
 ![Powershell](https://img.shields.io/badge/PowerShell-Advanced-teal?style=flat-square)
-![Batch](https://img.shields.io/badge/Batch-Advanced-teal?style=flat-square)
 ![Bash](https://img.shields.io/badge/Bash-Advanced-teal?style=flat-square)
 
 # Version v3.2.0
